@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Officer Details</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#F97316", // Saffron (orange)
+              "background-light": "#F8FAFC",
+              "background-dark": "#101922",
+              secondary: "#FFFFFF",
+              tertiary: "#1E3A8A", // Dark Blue/Navy
+              accent: "#16A34A", // Green
+            },
+            fontFamily: {
+              display: ["Public Sans", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "0.75rem",
+              xl: "1rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex flex-col flex-1 pb-24">
+<div class="sticky top-0 z-10 flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between shadow-sm">
+<button aria-label="Back" class="text-tertiary dark:text-white flex size-10 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined"> arrow_back </span>
+</button>
+<h1 class="text-tertiary dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Officer Details</h1>
+<div class="size-10 shrink-0"></div>
+</div>
+<div class="h-5 bg-background-light dark:bg-background-dark"></div>
+<div class="px-4">
+<div class="flex flex-col items-stretch justify-start rounded-lg bg-secondary dark:bg-slate-800 shadow-md">
+<div class="flex items-center gap-4 p-4">
+<img class="w-20 h-20 rounded-full object-cover" data-alt="Professional photo of an officer wearing a white formal shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-IIt4nABLJSCbNY1RVSwFNZZdnZmXy-XLbOiP9egTdnU52H4sHEsNlEHw8PioHaV0NldIoYwmHqDughSDg1rDjjffPQLsRDa3SjyZmGdGaeN13e5xAQLaWjF53RrzOS1GJCiaGE6cTDXTVjwPV2Ufqym43EHFjBh05_5qxkmh5Ow7BgnU9wcMMJNLPvA3x9H3GzKyHjfmj7w3PX07znl7boi7Q1w-av9Mzp5lST8ENCFh8we9MJ654DIAlRgeDRWijqpa-E8XVdA"/>
+<div class="flex flex-col">
+<p class="text-tertiary dark:text-white text-xl font-bold">Shri. Anant Kulkarni</p>
+<p class="text-slate-600 dark:text-slate-300 text-base">Senior Clerk</p>
+<p class="text-slate-600 dark:text-slate-300 text-base">Collector Office, Pune</p>
+</div>
+</div>
+</div>
+</div>
+<div class="h-5 bg-background-light dark:bg-background-dark"></div>
+<div class="px-4">
+<div class="flex flex-col gap-2 rounded-lg bg-secondary dark:bg-slate-800 p-4 shadow-md">
+<h2 class="text-tertiary dark:text-white text-lg font-bold mb-2">Contact Information</h2>
+<div class="flex items-center gap-4 min-h-14 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-tertiary dark:text-white flex items-center justify-center rounded-lg bg-primary/20 shrink-0 size-10">
+<span class="material-symbols-outlined"> phone </span>
+</div>
+<p class="text-tertiary dark:text-white text-base font-normal leading-normal flex-1 truncate">+91 9876543210</p>
+</div>
+<button aria-label="Copy phone number" class="shrink-0 text-tertiary dark:text-white">
+<div class="flex size-7 items-center justify-center">
+<span class="material-symbols-outlined"> content_copy </span>
+</div>
+</button>
+</div>
+<div class="flex items-center gap-4 min-h-14 justify-between">
+<div class="flex items-center gap-4">
+<div class="text-tertiary dark:text-white flex items-center justify-center rounded-lg bg-primary/20 shrink-0 size-10">
+<span class="material-symbols-outlined"> mail </span>
+</div>
+<p class="text-tertiary dark:text-white text-base font-normal leading-normal flex-1 truncate">anant.kulkarni@gov.in</p>
+</div>
+<button aria-label="Copy email address" class="shrink-0 text-tertiary dark:text-white">
+<div class="flex size-7 items-center justify-center">
+<span class="material-symbols-outlined"> content_copy </span>
+</div>
+</button>
+</div>
+</div>
+</div>
+<div class="h-5 bg-background-light dark:bg-background-dark"></div>
+<div class="px-4 py-3">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 flex-1 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] shadow-lg">
+<span class="truncate"> Send Query / Reminder </span>
+</button>
+</div>
+<div class="h-5 bg-background-light dark:bg-background-dark"></div>
+<div class="px-4">
+<div class="flex flex-col gap-4 rounded-lg bg-secondary dark:bg-slate-800 p-4 shadow-md">
+<h2 class="text-tertiary dark:text-white text-lg font-bold">Escalation Contacts</h2>
+<div class="flex flex-col gap-3">
+<div>
+<p class="text-tertiary dark:text-white font-semibold">Smt. Priya Sharma</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm">Nodal Officer</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm">priya.sharma@gov.in</p>
+</div>
+<div class="w-full h-px bg-slate-200 dark:bg-slate-700"></div>
+<div>
+<p class="text-tertiary dark:text-white font-semibold">Shri. Rajesh Patil</p>
+<p class="text-slate-600 dark:text-slate-300 text-sm">Collector, Pune</p>
+<p class="text-slate-500 dark:text-slate-400 text-sm">collector.pune@gov.in</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 h-16 bg-secondary dark:bg-slate-800 shadow-[0_-2px_5px_rgba(0,0,0,0.1)] flex justify-around items-center">
+<button class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 space-y-1">
+<span class="material-symbols-outlined"> support_agent </span>
+<span class="text-xs">Sarthi</span>
+</button>
+<button class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 space-y-1">
+<span class="material-symbols-outlined"> add_circle </span>
+<span class="text-xs">Apply Now</span>
+</button>
+<button class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 space-y-1">
+<span class="material-symbols-outlined"> description </span>
+<span class="text-xs">My Applications</span>
+</button>
+<button class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 space-y-1">
+<span class="material-symbols-outlined"> checklist </span>
+<span class="text-xs">Eligible For</span>
+</button>
+<button class="flex flex-col items-center justify-center text-tertiary dark:text-blue-400 space-y-1">
+<span class="material-symbols-outlined">
+<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.5 2v6h-6"></path>
+<path d="M21.34 15.34a10 10 0 1 1-.46-9.02L21.5 6"></path>
+</svg>
+</span>
+<span class="text-xs font-semibold">Track 360</span>
+</button>
+</div>
+</div>
+</body></html>
