@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chat with Sarthi</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1173d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              display: ["Public Sans"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+<style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-screen w-full flex-col group/design-root overflow-hidden">
+<div class="flex-shrink-0 bg-background-light dark:bg-background-dark">
+<div class="flex items-center p-4 pb-2 justify-between border-b border-gray-200 dark:border-gray-700">
+<div class="text-gray-800 dark:text-gray-200 flex size-12 shrink-0 items-center justify-center">
+<span class="material-symbols-outlined">arrow_back</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center text-gray-900 dark:text-gray-50">Chat with Sarthi</h2>
+<div class="size-12 shrink-0"></div>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto p-4 space-y-4">
+<div class="flex items-end gap-3 justify-end">
+<div class="flex flex-1 flex-col gap-1 items-end">
+<p class="text-sm font-medium text-gray-600 dark:text-gray-400 max-w-[360px] text-right">You</p>
+<p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-100">How do I apply for ration card?</p>
+</div>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="User avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOpMR1G5A6FBAFC_CO2k4ShAKkY7ReJOmzSvz0jVd190VuZLjvAIBAWH5T-xCkkxvd2EqFbAi3aSj1NCSku3B2bNKLc7kLZeuMB0JidgelGwG2isDAfT9Tb8QIb0tH-xsfQu4GQz0YgwCosluHIc5o8fnlKixZNXUGWkwr4eRfBgrLuMYYW0Wg4jahFojEsUAJuVnvfKe5qpz77tySkdB3K0PjqeXNlhC3qeCYO55nozEI4eKJkbQfBotC7L3_rhewzYguLV6S48Q");'></div>
+</div>
+<div class="flex items-end gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="Sarthi avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBH57Xvj4WZa0BwBvXhjdIrZkI23gN2Kp6lzXYy8-xqL-5cSQboQrKbW-5a6gbSmFABeIvqdKu9k7wrfOe9GaRUIdM7wyawql7vGPYKKkxaC6S8JoVbXYUif6edHPkM37lWkXyPpf6LgAimwLRVVFVGYPHRMKzJPoLhtfS2AKhSsvDJoHEKG4LgQsPnQrWdTCZrVWiIe9PqJBIZU-vg2H0KSbIX1VFN_rTLmf4YrbZte20_Y8T-VdQfx8bMurSq0Ne15Ri1nGQMABo");'></div>
+<div class="flex flex-1 flex-col gap-2 items-start">
+<p class="text-sm font-medium text-gray-600 dark:text-gray-400 max-w-[360px]">Sarthi</p>
+<p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border border-gray-200 dark:border-gray-700">Don't worry, I am here to help you. Click on the following link it will redirect you to ration card application.</p>
+<a class="flex max-w-[360px] w-full items-center gap-3 rounded-lg bg-white dark:bg-gray-800 p-3 border border-gray-200 dark:border-gray-700 hover:bg-primary/10 dark:hover:bg-primary/20" href="#">
+<p class="text-primary text-sm font-medium leading-normal line-clamp-2 flex-1 underline">Ration Card Application</p>
+<span class="material-symbols-outlined text-primary">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<div class="flex-shrink-0 bg-background-light dark:bg-background-dark">
+<div class="flex items-center px-4 py-3 gap-3 @container border-t border-gray-200 dark:border-gray-700">
+<label class="flex flex-col min-w-40 h-12 flex-1">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-gray-900 dark:text-gray-100 focus:outline-0 focus:ring-0 border-none bg-gray-200 dark:bg-gray-700 focus:border-none h-full placeholder:text-gray-500 dark:placeholder:text-gray-400 px-4 rounded-r-none border-r-0 pr-2 text-base font-normal leading-normal" placeholder="Type a message" value=""/>
+<div class="flex border-none bg-gray-200 dark:bg-gray-700 items-center justify-center pr-4 rounded-r-lg border-l-0 !pr-2">
+<div class="flex items-center gap-4 justify-end">
+<button class="flex items-center justify-center p-1.5 text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined text-xl">add_circle</span>
+</button>
+<button class="flex items-center justify-center p-1.5 text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined text-xl">mic</span>
+</button>
+</div>
+</div>
+</div>
+</label>
+<button class="min-w-12 h-12 flex-shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary text-white text-sm font-medium leading-normal flex">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+<div class="flex-shrink-0 bg-background-light dark:bg-background-dark">
+<div class="flex w-full items-center justify-around border-t border-gray-200 px-2 py-1.5 dark:border-gray-700">
+<a class="flex w-1/5 flex-col items-center justify-center gap-1 rounded-md p-2 text-center text-primary" href="#">
+<span class="material-symbols-outlined text-2xl">support_agent</span>
+<span class="text-xs font-semibold">Sarthi</span>
+</a>
+<a class="flex w-1/5 flex-col items-center justify-center gap-1 rounded-md p-2 text-center text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined text-2xl">add_circle</span>
+<span class="text-xs font-medium">Apply Now</span>
+</a>
+<a class="flex w-1/5 flex-col items-center justify-center gap-1 rounded-md p-2 text-center text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined text-2xl">description</span>
+<span class="text-xs font-medium">My Applications</span>
+</a>
+<a class="flex w-1/5 flex-col items-center justify-center gap-1 rounded-md p-2 text-center text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined text-2xl">check_box</span>
+<span class="text-xs font-medium">Eligible For</span>
+</a>
+<a class="flex w-1/5 flex-col items-center justify-center gap-1 rounded-md p-2 text-center text-gray-500 dark:text-gray-400" href="#">
+<span class="material-symbols-outlined text-2xl">360</span>
+<span class="text-xs font-medium">Track 360</span>
+</a>
+</div>
+</div>
+</div>
+</body></html>
