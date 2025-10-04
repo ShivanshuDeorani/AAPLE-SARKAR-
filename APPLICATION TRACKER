@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Application Tracker</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1173d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+              saffron: "#FF9933",
+              green: "#138808",
+            },
+            fontFamily: {
+              display: ["Public Sans"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px"
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+<style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10">
+<div class="text-slate-800 dark:text-slate-200 flex size-12 shrink-0 items-center">
+<span class="material-symbols-outlined !text-2xl">arrow_back</span>
+</div>
+<h2 class="text-slate-800 dark:text-slate-200 text-lg font-bold leading-tight tracking-[-0.015em] flex-1">Application Tracker</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-slate-800 dark:text-slate-200 gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined !text-2xl">more_vert</span>
+</button>
+</div>
+</div>
+<div class="p-4 bg-background-light dark:bg-background-dark">
+<div class="bg-white dark:bg-slate-800 rounded-lg p-4 shadow">
+<p class="text-sm text-slate-500 dark:text-slate-400">Scheme Name</p>
+<p class="font-semibold text-slate-800 dark:text-slate-200">Ration Card</p>
+<p class="text-sm text-slate-500 dark:text-slate-400 mt-2">Application ID</p>
+<p class="font-semibold text-slate-800 dark:text-slate-200">MH12345678</p>
+</div>
+</div>
+<div class="flex-grow px-4 pb-4 bg-background-light dark:bg-background-dark">
+<div class="space-y-1">
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="rounded-full bg-green text-white flex items-center justify-center h-8 w-8">
+<span class="material-symbols-outlined !text-lg">check</span>
+</div>
+<div class="w-0.5 bg-green h-16"></div>
+</div>
+<div class="flex-1 pt-1">
+<div class="bg-green/20 dark:bg-green/30 p-4 rounded-lg">
+<p class="text-green-800 dark:text-green-200 font-bold">Application Submitted</p>
+<p class="text-slate-600 dark:text-slate-400 text-sm mt-1">12/12/2023</p>
+</div>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="rounded-full bg-saffron text-white flex items-center justify-center h-8 w-8 animate-pulse">
+<span class="material-symbols-outlined !text-lg">hourglass_top</span>
+</div>
+<div class="w-0.5 bg-slate-300 dark:bg-slate-600 h-16"></div>
+</div>
+<div class="flex-1 pt-1">
+<div class="bg-saffron/20 dark:bg-saffron/30 p-4 rounded-lg border border-saffron">
+<p class="text-saffron-800 dark:text-saffron-200 font-semibold">Initial Verification Pending</p>
+</div>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="rounded-full bg-slate-300 dark:bg-slate-600 text-slate-500 dark:text-slate-400 flex items-center justify-center h-8 w-8">
+<span class="material-symbols-outlined !text-lg">pending</span>
+</div>
+<div class="w-0.5 bg-slate-300 dark:bg-slate-600 h-16"></div>
+</div>
+<div class="flex-1 pt-1">
+<div class="bg-slate-100 dark:bg-slate-800 p-4 rounded-lg">
+<p class="text-slate-500 dark:text-slate-400">Officer Scrutiny in Process</p>
+</div>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="rounded-full bg-slate-300 dark:bg-slate-600 text-slate-500 dark:text-slate-400 flex items-center justify-center h-8 w-8">
+<span class="material-symbols-outlined !text-lg">pending</span>
+</div>
+<div class="w-0.5 bg-slate-300 dark:bg-slate-600 h-16"></div>
+</div>
+<div class="flex-1 pt-1">
+<div class="bg-slate-100 dark:bg-slate-800 p-4 rounded-lg">
+<p class="text-slate-500 dark:text-slate-400">Final Approval</p>
+</div>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex flex-col items-center">
+<div class="rounded-full bg-slate-300 dark:bg-slate-600 text-slate-500 dark:text-slate-400 flex items-center justify-center h-8 w-8">
+<span class="material-symbols-outlined !text-lg">download</span>
+</div>
+</div>
+<div class="flex-1 pt-1">
+<div class="bg-slate-100 dark:bg-slate-800 p-4 rounded-lg">
+<p class="text-slate-500 dark:text-slate-400">Certificate Download</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sticky bottom-0 z-10">
+<div class="flex justify-around border-t border-slate-200 dark:border-slate-700 bg-background-light dark:bg-background-dark py-2">
+<a class="flex flex-col items-center justify-end gap-1 text-slate-500 dark:text-slate-400 w-1/5" href="#">
+<span class="material-symbols-outlined !text-2xl">support_agent</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Sarthi</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-slate-500 dark:text-slate-400 w-1/5" href="#">
+<span class="material-symbols-outlined !text-2xl">add_circle</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Apply Now</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-slate-500 dark:text-slate-400 w-1/5" href="#">
+<span class="material-symbols-outlined !text-2xl">description</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">My Apps</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-slate-500 dark:text-slate-400 w-1/5" href="#">
+<span class="material-symbols-outlined !text-2xl">rule_folder</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Eligible For</p>
+</a>
+<a class="flex flex-col items-center justify-end gap-1 text-primary dark:text-primary-400 w-1/5" href="#">
+<span class="material-symbols-outlined !text-2xl">360</span>
+<p class="text-xs font-bold leading-normal tracking-[0.015em]">Track 360</p>
+</a>
+</div>
+</div>
+</div>
+</body></html>
